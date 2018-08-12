@@ -93,7 +93,6 @@ class StarRating extends Component {
 
     const newContainerStyle = {
       flexDirection: reversed ? 'row-reverse' : 'row',
-      justifyContent: 'space-between',
       ...containerStyle,
     };
 
